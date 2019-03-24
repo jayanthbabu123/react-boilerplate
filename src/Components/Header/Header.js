@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-
+var a = 0;
 export default class Header extends Component {
   static get propTypes() {
     return {
