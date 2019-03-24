@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-var a = 0;
 export default class Header extends Component {
   static get propTypes() {
     return {
@@ -13,7 +12,7 @@ export default class Header extends Component {
       <div>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <a className="navbar-brand" href="#">
-            {this.props.name}
+            {this.props.name}{" "}
           </a>
           <button
             className="navbar-toggler"
